@@ -45,5 +45,5 @@ mat <- diag(1:4)
 x <- makeCacheMatrix(mat)
 ## First call to cacheSolve, inverse has not been cached yet
 cacheSolve(x)
-## Second call to cacheSolve, inverse has not already been cached
+## Second call to cacheSolve, inverse has already been cached
 cacheSolve(x)
